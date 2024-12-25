@@ -1,0 +1,12 @@
+constants:
+  my_number: 42
+  my_string: "example"
+items:
+  - array_example:
+      - 1
+      - 2
+      - 3
+  - dict_example:
+      key1: "value1"
+      key2: "value2"
+  - computed_example: !(+ my_number 5)
